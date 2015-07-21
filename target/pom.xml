@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>xfire</artifactId>
+  <packaging>zip</packaging>
+  <version>0.9</version>
+  <name>Adding Web Service support for Grails(2.4 &gt; *) services using XFire.</name>
+  <description>XFire plugin allows Grails applications to expose service
+classes as Web Services. It uses the SOAP implementation
+</description>
+  <developers>
+    <developer>
+      <name>Carlos Henrique</name>
+      <email>krloshps@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>hibernate4</artifactId>
+      <version>4.3.6.1</version>
+      <type>zip</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
